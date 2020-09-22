@@ -42,11 +42,24 @@ a:link{
 }
 
 @media(max-width: 500px) {
+    body{
+        width: 98%;
+    }
     header{
         background-image:url("https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=500");
     }
 
     h1{
         font-size: 500%;
+        background-image: url("https://images.pexels.com/photos/3236748/pexels-photo-3236748.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+        background-position-y: 55%;
+
+    }
+    nav{
+        justify-content: space-between;
+    }
+    a:link{
+        color: #4A5405;
+        font-size: 125%;
     }
 }
