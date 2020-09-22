@@ -16,13 +16,13 @@ h1{
     background-size: cover;
     -webkit-background-clip: text;
     color:transparent;
-    background-position-y: 40%;
+    background-position-y: 42%;
     background-position-x: 25%;
     text-transform: uppercase;
     text-align: center;
     font-size: 1000%;
     font-family: 'Erica One', cursive;
-    padding-bottom: 10%;
+    padding-bottom: 17%;
 }
 nav{
     display: flex;
@@ -39,4 +39,14 @@ a:link{
     font-size: 150%;
     text-decoration: none;
     margin: 1%;
+}
+
+@media(max-width: 500px) {
+    header{
+        background-image:url("https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=500");
+    }
+
+    h1{
+        font-size: 500%;
+    }
 }
