@@ -1,12 +1,13 @@
 
 
 body{
+    background-image: url("https://images.pexels.com/photos/733100/pexels-photo-733100.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1000&w=1500");
     -webkit-font-smoothing: antialiased;
     width:99%;
     
 }
 header{
-    background-image:url("https://images.pexels.com/photos/7640/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") ;
+    background-image:url("https://images.pexels.com/photos/7640/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1300") ;
     background-size: 100%;
     background-size: cover;
 
@@ -21,7 +22,7 @@ h1{
     text-transform: uppercase;
     text-align: center;
     font-size: 1000%;
-    font-family: 'Erica One', cursive;
+    font-family: 'Erica One';
     padding-bottom: 17%;
 }
 nav{
@@ -35,10 +36,28 @@ nav{
     color: #40171d;
 }
 a:link{
-    color:  #611914;
+    color:  #52100b;
     font-size: 150%;
     text-decoration: none;
     margin: 1%;
+}
+.memory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 50%;
+    position: relative;
+    object-position: left;
+    margin-right: 100px;
+    margin-left: 150px;
+    align-content: justify;
+    font-size: 25px;
+    color:white;
+}
+.adventure{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
 }
 
 @media(max-width: 500px) {
@@ -47,11 +66,13 @@ a:link{
     }
     header{
         background-image:url("https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=500");
+        /* background-size: 98%; */
+        background-size: cover;
     }
 
     h1{
         font-size: 500%;
-        background-image: url("https://images.pexels.com/photos/3236748/pexels-photo-3236748.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+        background-image: url("https://images.pexels.com/photos/3236748/pexels-photo-3236748.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1300");
         background-position-y: 55%;
 
     }
@@ -62,4 +83,16 @@ a:link{
         color: #4A5405;
         font-size: 125%;
     }
+    .memory{
+        margin-right: 55px;
+        margin-left: 35px;
+        font-size: 20px;
+    }
+    .mobile{
+        width: 100%;
+        height: auto;
+        
+    }
 }
+
+
