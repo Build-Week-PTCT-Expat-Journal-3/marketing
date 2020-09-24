@@ -1,7 +1,7 @@
 
 
 body{
-    background-image: url("https://images.pexels.com/photos/733100/pexels-photo-733100.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1000&w=1500");
+    background-image: url("https://images.pexels.com/photos/1743392/pexels-photo-1743392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h1000&w=1500");
     -webkit-font-smoothing: antialiased;
     width:99%;
     
@@ -36,8 +36,8 @@ nav{
     color: #40171d;
 }
 a:link{
-    color:  #52100b;
-    font-size: 150%;
+    color:  #000000;
+    font-size: 100%;
     text-decoration: none;
     margin: 1%;
 }
@@ -59,6 +59,21 @@ a:link{
     flex-direction: row;
     align-content: center;
 }
+.mobile{
+    width: 500px;
+    height: 300px;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1000%;
+    font-family: 'Permanent Marker';
+}
+.us{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
 
 @media(max-width: 500px) {
     body{
@@ -66,7 +81,6 @@ a:link{
     }
     header{
         background-image:url("https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=500");
-        /* background-size: 98%; */
         background-size: cover;
     }
 
@@ -80,7 +94,7 @@ a:link{
         justify-content: space-between;
     }
     a:link{
-        color: #4A5405;
+        color: white;
         font-size: 125%;
     }
     .memory{
@@ -90,8 +104,12 @@ a:link{
     }
     .mobile{
         width: 100%;
-        height: auto;
+        height: 200px;
+        align-content: space-between;
         
+    }
+    h2{
+        font-size: 500%;
     }
 }
 
